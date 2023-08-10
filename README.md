@@ -1,16 +1,3 @@
 # mobile_banking_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="300" alt="image" src="https://github.com/YamamotoDesu/mobile_banking_app/assets/47273077/a9b7319f-a8a1-479d-bb36-399c5267d03c">
+<img width="300" alt="image" src="https://github.com/YamamotoDesu/mobile_banking_app/assets/47273077/6144a89b-9bc6-4ab0-8104-f5e0acaa3d1c">
