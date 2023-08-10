@@ -270,32 +270,35 @@ class _DetailPageState extends State<DetailPage> {
                   ],
                 ),
                 const Spacer(),
-                SwipeableButtonView(
-                  onFinish: () {},
-                  onWaitingProcess: () {
-                    Future.delayed(const Duration(seconds: 2), () {
-                      setState(() {
-                        onFinish = false;
+                Padding(
+                  padding: const EdgeInsets.all(18.0),
+                  child: SwipeableButtonView(
+                    onFinish: () {},
+                    onWaitingProcess: () {
+                      Future.delayed(const Duration(seconds: 2), () {
+                        setState(() {
+                          onFinish = false;
+                        });
                       });
-                    });
-                  },
-                  activeColor: const Color(0xffF2E6CC),
-                  buttonWidget: Container(
-                    height: 60,
-                    width: 60,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(50),
-                      color: Colors.orange,
+                    },
+                    activeColor: const Color(0xffF2E6CC),
+                    buttonWidget: Container(
+                      height: 60,
+                      width: 60,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(50),
+                        color: Colors.orange,
+                      ),
+                      child: const Icon(
+                        Icons.navigate_next_outlined,
+                        color: Colors.black,
+                      ),
                     ),
-                    child: const Icon(
-                      Icons.navigate_next_outlined,
+                    buttonText: 'Confirm Payment Now',
+                    buttontextstyle: const TextStyle(
                       color: Colors.black,
+                      fontSize: 15,
                     ),
-                  ),
-                  buttonText: 'Confirm Payment Now',
-                  buttontextstyle: const TextStyle(
-                    color: Colors.black,
-                    fontSize: 15,
                   ),
                 )
               ],
