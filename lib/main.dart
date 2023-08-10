@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'main_home_screen.dart';
+import 'detail_page.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         fontFamily: ('Inter'),
         useMaterial3: true,
       ),
-      home: const MainHomeScreen(),
+      home: const DetailPage(),
     );
   }
 }
